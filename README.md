@@ -38,8 +38,8 @@ git checkout -f v1.2.1
 ## 5G RAN: gNB and nrUE Installation
 
 ```
-git clone --branch 2021.w46 https://gitlab.eurecom.fr/oai/oai/openairinterface5g.git ~/5g/openairinterface5g && cd ~/5g/openairinterface5g
-git checkout -f 2021.w46
+git clone --branch 2021.w46-SnT https://gitlab.eurecom.fr/oai/oai/openairinterface5g.git ~/5g/openairinterface5g && cd ~/5g/openairinterface5g
+git checkout -f 2021.w46-SnT
 source oaienv && cd cmake_targets/
 ./build_oai --gNB --nrUE -w SIMU --build-lib nrscope --ninja
 ```
